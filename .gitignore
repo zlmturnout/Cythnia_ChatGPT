@@ -8,7 +8,8 @@ UI/__pycache__
 
 # gitignore
 #.gitignore
-
+*.jpg
+*.pdf
 # my ignore file
 *.log
 html/
