@@ -1,0 +1,6 @@
+OpenAI_API:
+  API_Name: "Cythnia_GPT4"
+  API_KEY:  "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"
+  cyhnia_API: "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"
+Http_Proxy:
+  My_proxy: "http://limin:zlm153@127.0.0.1:10811"
