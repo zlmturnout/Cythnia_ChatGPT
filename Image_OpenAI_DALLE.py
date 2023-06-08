@@ -1,7 +1,7 @@
 import os,sys,time
 import json
 import openai
-from ChatGPT_API import API_KEY,API_Name
+from Yaml_ReadLoad import API_KEY,API_Name
 from urllib.request import urlopen
 from io import BytesIO
 from PIL import Image

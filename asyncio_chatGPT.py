@@ -2,7 +2,7 @@ import aiohttp
 import asyncio
 import json
 import openai
-from ChatGPT_API import API_KEY,API_Name,MY_proxy
+from Yaml_ReadLoad import API_KEY,API_Name,MY_proxy
 openai.api_key = API_KEY
 from aiohttp import ClientSession
 
