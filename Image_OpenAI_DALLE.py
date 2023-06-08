@@ -1,10 +1,13 @@
 import os,sys,time
 import json
 import openai
-from Yaml_ReadLoad import API_KEY,API_Name
 from urllib.request import urlopen
 from io import BytesIO
 from PIL import Image
+from Yaml_ReadLoad import read_yaml_data,load_API_key
+
+API_KEY=load_API_key(os.path.abspath('.\\ChatGPT_API.yaml'))
+openai.api_key = API_KEY
 
 def save_url_img(img_url:str,img_folder:str,img_name:str,img_type:str="jpg"):
     """

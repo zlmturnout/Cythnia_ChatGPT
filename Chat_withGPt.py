@@ -1,8 +1,9 @@
 import os,sys,time
 import json
 import openai
-from Yaml_ReadLoad import API_KEY,API_Name
+from Yaml_ReadLoad import read_yaml_data,load_API_key
 
+API_KEY=load_API_key(os.path.abspath('.\\ChatGPT_API.yaml'))
 openai.api_key = API_KEY
 
 start_time=time.time()
